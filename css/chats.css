@@ -1,6 +1,7 @@
 .chats .chats__list {
   border-top: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
+  list-style: none;
 }
 
 .chats__list .chats__chat {
@@ -60,7 +61,7 @@
   color: #523737;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  transition: color .3s, background .3s, transform .5s ease-in-out;
+  transition: color 0.3s, background 0.3s, transform 0.5s ease-in-out;
 }
 
 .chat-btn:hover {
